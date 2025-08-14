@@ -1,0 +1,43 @@
+input {
+  border-radius: 15px;
+  height: 33px;
+  background-color: #f1f5f9;
+  margin-top: 6px;
+}
+button {
+  height: 40px;
+  width: 30px;
+  font-size: 25px;
+  text-align: center;
+  border-width: 0px;
+}
+img {
+  height: 25px;
+  width: 25px;
+  align-self: center;
+  margin-left: 5px;
+}
+.maincontainer {
+  text-align: center;
+}
+.mainheadk {
+  font-size: 60px;
+}
+.container1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f1f5f9;
+  width: 290px;
+  margin-left: 260px;
+  border-radius: 30px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  justify-content: center;
+  margin-left: 30px;
+}

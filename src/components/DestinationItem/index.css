@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.imga {
+  height: 150px;
+  width: 200px;
+}
+.listhead {
+  font-size: 10px;
+}
+li{
+  list-style-type: none;
+}
+.eachlistitem {
+  margin: 10px;
+}
