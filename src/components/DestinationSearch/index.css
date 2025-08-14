@@ -3,6 +3,7 @@ input {
   height: 33px;
   background-color: #f1f5f9;
   margin-top: 6px;
+  width: 190px;
 }
 button {
   height: 40px;
@@ -15,7 +16,7 @@ img {
   height: 25px;
   width: 25px;
   align-self: center;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .maincontainer {
   text-align: center;
