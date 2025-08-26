@@ -34,6 +34,12 @@ class DestinationSearch extends Component {
             placeholder="Search"
             onChange={this.onChangeInput}
           />
+<<<<<<< HEAD
+=======
+       //   <button onClick={this.emptytext} type="button">
+        //    x
+        //  </button>
+>>>>>>> 9f7e98b9e942c8de4ae957a67a85b44295c418dd
           <img
             alt="search icon"
             src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png "
