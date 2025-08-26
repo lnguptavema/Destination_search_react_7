@@ -21,7 +21,7 @@ class DestinationSearch extends Component {
     const {id, name, imgUrl} = destinationsList
 
     const searchResult = destinationsList.filter(eachitem =>
-      eachitem.name.toLowerCase().includes(searchInput),
+      eachitem.name.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
@@ -34,9 +34,6 @@ class DestinationSearch extends Component {
             placeholder="Search"
             onChange={this.onChangeInput}
           />
-          <button onClick={this.emptytext} type="button">
-            x
-          </button>
           <img
             alt="search icon"
             src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png "
